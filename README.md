@@ -1,6 +1,5 @@
 #Sails Application (to learn SAILS)
-[![Travis branch](https://img.shields.io/travis/troy0820/sails_app.svg)](https://github.com/troy0820/sails_app)
-
+[![Travis branch](https://img.shields.io/travis/joyent/node/v0.6.svg)](https://travis-ci.org/troy0820/sails_app.svg?branch=master)
 ##Getting started 
 
 ```
