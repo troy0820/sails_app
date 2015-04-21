@@ -17,8 +17,12 @@ setTimeout(function sunrise () {
     </div>
     <div class="main container clearfix">
         <p>Don't worry, we've got your back.</p> 
-	<ul>
-	<li>List will go here</li>
+	<h2><%= title %></h2>
+	<h3>Names of people in the api</h3>
+	<ul>	
+	<li><% for(var i=0; i < names.length; i++) { %>
+	<li><%= names[i].name %></li>
+	<% } %>
 		</ul>    
 </div>
 </div>

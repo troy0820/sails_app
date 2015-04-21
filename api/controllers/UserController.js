@@ -6,8 +6,17 @@
  */
 
 module.exports = {
-	troy:function(req,res) {
-		res.send('This is on the screen');
+	troy: function(req,res) {
+	var request = require('request');	
+	var _ = require('lodash');
+	request('http://localhost:1337/user',function(err, response, body) {
+		if (err) {
+		console.log(err);
+	}
+	var list = JSON.parse(body);
+
+ 	res.view('troy', { title: 'Troy\'s Awesome App', names:list});
+	})
 	}	
 };
 
