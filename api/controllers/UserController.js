@@ -6,6 +6,8 @@
  */
 
 module.exports = {
-	
+	troy:function(req,res) {
+		res.send('This is on the screen');
+	}	
 };
 
