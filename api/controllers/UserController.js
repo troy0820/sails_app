@@ -8,7 +8,6 @@
 module.exports = {
 	troy: function(req,res) {
 	var request = require('request');	
-	var _ = require('lodash');
 	request('http://localhost:1337/user',function(err, response, body) {
 		if (err) {
 		console.log(err);
