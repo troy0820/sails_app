@@ -36,12 +36,10 @@ module.exports.routes = {
     view: 'homepage'
   },
 
-  'get /troy': 'User.troy'
-   //,
+  'get /troy': 'User.troy',
+
+  'get /stuff': 'User.stuff'
  
-//  'get /user': {
-  //  view: 'homepage'
-//  }
 
   /***************************************************************************
   *                                                                          *

@@ -16,6 +16,11 @@ module.exports = {
 
  	res.view('troy', { title: 'Troy\'s Awesome App', names:list});
 	})
+	},
+
+	stuff: function(req, res) {
+
+	res.view('stuff', { title: 'This is the stuff'});
 	}	
 };
 
