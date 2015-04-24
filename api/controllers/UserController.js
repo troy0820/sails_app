@@ -19,8 +19,8 @@ module.exports = {
 	},
 
 	stuff: function(req, res) {
-
-	res.view('stuff', { title: 'This is the stuff'});
+        var number = Math.floor((Math.random() * 100) +1); 
+	res.view('stuff', { title: 'This is the stuff', random:number });
 	}	
 };
 
