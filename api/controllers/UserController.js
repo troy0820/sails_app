@@ -14,13 +14,13 @@ module.exports = {
 	}
 	var list = JSON.parse(body);
 
- 	res.view('troy', { title: 'Troy\'s Awesome App', names:list});
+ 	res.view('troy', { title: 'Troy\'s Sails stuff', names:list});
 	})
 	},
 
 	stuff: function(req, res) {
-        var number = Math.floor((Math.random() * 100) +1); 
-	res.view('stuff', { title: 'This is the stuff', random:number });
+        var number = Math.floor((Math.random() * 500) +1); 
+	res.view('stuff', { title: 'Welcome to the sails app', random:number });
 	}	
 };
 
